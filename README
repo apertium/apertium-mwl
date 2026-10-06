@@ -61,11 +61,11 @@ If you are in the source directory after running make, the following
 commands should work:
 
 ```console
-$ echo "TODO: test sentence" | apertium -d . mwl-morph
-TODO: test analysis result
+$ echo "L mirandés ye l nome dua lhéngua falada ne l Nordeste de Pertual." | apertium -d . mwl-morph
+^L/L<num>/l<n><m><sg>/l<det><def><m><sg>/el<prn><pers><p3><m><sg><obj>$ ^mirandés/mirandés<n><m><sg>$ ^ye/ser<vbser><pri><p3><sg>$ ^l/l<n><m><sg>/l<det><def><m><sg>/el<prn><pers><p3><m><sg><obj>$ ^nome/nome<n><m><sg>$ ^dua/de<pr>+un<det><ind><f><sg>$ ^lhéngua/lhéngua<n><f><sg>$ ^falada/falada<adj><f><sg>$ ^ne/ne<pr>$ ^l/l<n><m><sg>/l<det><def><m><sg>/el<prn><pers><p3><m><sg><obj>$ ^Nordeste/nordeste<n><m><sg>/nordeste<adj><f><sg>/nordeste<adj><m><sg>$ ^de/de<pr>$ ^Pertual/Pertual<np><top><m><sg>$^../..<sent>$
 
-$ echo "TODO: test sentence" | apertium -d . mwl-tagger
-TODO: test tagger result
+$ echo "L mirandés ye l nome dua lhéngua falada ne l Nordeste de Pertual." | apertium -d . mwl-tagger
+^L<det><def><m><sg>$ ^mirandés<n><m><sg>$ ^ser<vbser><pri><p3><sg>$ ^l<det><def><m><sg>$ ^nome<n><m><sg>$ ^de<pr>+un<det><ind><f><sg>$ ^lhéngua<n><f><sg>$ ^falada<adj><f><sg>$ ^ne<pr>$ ^l<det><def><m><sg>$ ^Nordeste<n><m><sg>$ ^de<pr>$ ^Pertual<np><top><m><sg>$^..<sent>$
 ```
 
 Files and data
