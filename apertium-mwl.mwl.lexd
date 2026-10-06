@@ -3547,6 +3547,7 @@ ser<vbser><pp>:sido
 ser<vbser><pis><p1><sg>:fusse
 ser<vbser><pis><p3><sg>:fusse
 star<vblex><pii><p3><pl>:éran
+poder<vblex><pri><p1><sg>:puodo
 poder<vblex><pri><p3><sg>:puode
 poder<vblex><pri><p3><pl>:puoden
 ampeçar<vblex><pri><p1><sg>:ampeço
@@ -69905,7 +69906,8 @@ metazó:metazó[MF]
 
 meteorográ:meteorográ[MF]
 
-meteoroló:meteoroló[MF]
+meteorológico:meteorológico[M]
+meteorológico:meteorológica[F]
 
 meteoromá:meteoromá[MF]
 
@@ -70220,8 +70222,6 @@ miraculosa:miraculosa[F]
 
 mirado:mirado[M]
 mirada:mirada[F]
-
-mirandé:mirandé[MF]
 
 mirrado:mirrado[M]
 mirrada:mirrada[F]
